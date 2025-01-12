@@ -14,49 +14,67 @@
         <meta property="og:type" content="website">
         <link rel="icon" href="" type="image/x-icon">
         <link rel="stylesheet" href="src/styles/global.css">
+        <link rel="stylesheet" href="src/styles/text.css">
+        <link rel="stylesheet" href="src/styles/menu.css">
+        <link rel="stylesheet" href="src/styles/boxes.css">
+        <link rel="stylesheet" href="src/styles/section-frames.css">
+        <link rel="stylesheet" href="src/styles/responsive.css">
     </head>
     <body>
         <div class="main-layout">
-            <header class="menu-banner">
+            <header class="menu-header">
                 <span class="profile">
-                    <img style="height: 48px; width: 48px;" src="" alt="">
-                    <label>Your Name</label>
+                    <img src="src/assets/User.png" alt="Profile picture.">
+                    <label>Your Name<label>
                 </span>
                 <nav class="menu">
-                    <a href="">HOME</a>
-                    <a href="">PROJECTS</a>
-                    <a href="">ARTICLES</a>
-                    <a href="">CONTACT</a>
+                    <a href="homepage.html">HOME</a>
+                    <a href="pages/projects.html">PROJECTS</a>
+                    <a href="pages/articles.html">ARTICLES</a>
+                    <a href="pages/contact.html">CONTACT</a>
                 </nav>
             </header>
             <main>
                 <section class="banner">
-                    <h1>BANNER</h1>
+                    <h1>HOME</h1>
                     <p>Created with HTML and CSS</p>
                 </section>
                 <section class="history">
-                    <div class="container-box">
+                    <div class="project-box">
                         <h2>Projects</h2>
-                        <label for="">HTML Only Portofolio</label>
-                        <label for="">Calculator</label>
-                        <label for="">Quiz App</label>
-                        <label for="">Countdown Timer</label>
-                        <label for="">Product Upcoming Page</label>
+                        <span class="span-project">
+                            <label for="">Basic HTML Website</label>
+                        </span>
+                        <span class="span-project">
+                            <label for="">Single-Page CV</label>
+                        </span>
+                        <span class="span-project">
+                            <label for="">Quiz App</label>
+                        </span>
+                        <span class="span-project">
+                            <label for="">Countdown Timer</label>
+                        </span>
+                        <span class="span-project">
+                            <label for="">Product Upcoming Page</label>
+                        </span>
+                        <span class="span-project">
+                            <label for="">HTML Website Complete</label>
+                        </span>
                     </div>
-                    <div class="container-box-middle">
-                        <span class="span-box">
+                    <div class="work-frame">
+                        <span class="work-box">
                             <h2>Work Experience</h2>
-                            <p for="">roadmap.sh</p>
+                            <p>roadmap.sh</p>
                             <p>Solved all the fronted projects</p>
                             <a href=""><p>Visit my Profile</p></a>
                         </span>
-                        <span class="span-box">
+                        <span class="work-box">
                             <h2>OpenSource Work</h2>
                             <p>Contribuited to 50 opensource projects. Made my own projects with 200 GitHub Stars.</p>
                             <a href=""><p>Visit my GitHub Profile</p></a>
                         </span>
                     </div>
-                    <div class="container-box">
+                    <div class="education-box">
                         <h2>Education</h2>
                         <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</p>
                         <p>Courses I took:</p>
@@ -75,18 +93,18 @@
                 </section>
                 <section class="reviews">
                     <h2>Reviews from my Teachers</h2>
-                    <section class="reviews-container">
-                        <div class="content-box">
+                    <section class="reviews-inner-frame">
+                        <div class="review-box">
                             <p>John doe was a brilliant student; always stood out with his assignments.</p>
                             <p>Jane Doe</p>
                             <p>Assistant Professor</p>
                         </div>
-                        <div class="content-box">
+                        <div class="review-box">
                             <p>John doe was a brilliant student; always stood out with his assignments.</p>
                             <p>Jane Doe</p>
                             <p>Assistant Professor</p>
                         </div>
-                        <div class="content-box">
+                        <div class="review-box">
                             <p>John doe was a brilliant student; always stood out with his assignments.</p>
                             <p>Jane Doe</p>
                             <p>Assistant Professor</p>
@@ -95,7 +113,7 @@
                 </section>
             </main>
             <footer>
-                <p>Creado por Charlie Chan</p>
+                <h3>Maked by <a href="https://www.linkedin.com/in/charliechan-dev/">Charlie Chan</a></h3>
             </footer>
         </div>
     </body>
