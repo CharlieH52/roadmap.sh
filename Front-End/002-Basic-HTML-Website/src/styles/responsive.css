@@ -1,0 +1,15 @@
+@media (width: 412px) {
+    .menu-header {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .menu {
+        justify-content: center;
+    }
+
+    .menu a{
+        font-size: 22px;
+        margin: 16px 0;
+    }
+}
