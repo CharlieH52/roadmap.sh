@@ -44,4 +44,13 @@
     gap: 16px;
 }
 
+.formulary {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: var(--background-box);
+    border-radius: 16px;
+    padding: 16px;
+
+}
 

@@ -55,7 +55,6 @@ footer {
 .menu-header {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
 }
 
 div, section, span {
@@ -73,16 +72,4 @@ div, section, span {
 .profile label{
     font-size: 32px;
     font-weight: bold;
-
-}
-
-.banner h1 {
-    width: fit-content;
-    font-size: 96px;
-}
-
-.banner p {
-    width: fit-content;
-    font-size: 24px;
-    opacity: 75%;
 }
