@@ -4,10 +4,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/mediaQ.css">
 </head>
 <body>
+    <div class="synth-wave"></div>
     <div class="main-frame">
-        <header>
+        <header class="main-head">
             <div class="profile-block">
                 <img class="profile-img" src="" alt="">
                 <h1>Your Name</h1>
@@ -18,54 +20,64 @@
                 <a href="">Articles</a>
                 <a href="">Contact</a>
             </nav>
-            <div>
-                <h2>Frontend Developer</h2>
-                <p>html only with proper layout, not styling.</p>
-            </div>
         </header>
         <main>
-            <section>
-                <h2>Projects</h2>
-                <a href="">HTML Only Portfolio</a>
-                <a href="">Calculator</a>
-                <a href="">Quiz App</a>
-                <a href="">Countdown Timer</a>
-                <a href="">Product Upcoming Page</a>
+            <section class="banner">
+                    <h2>Frontend Developer</h2>
+                    <p>html only with proper layout, not styling.</p>
             </section>
-            <section>
-                <h2>Work Experience</h2>
-                <div>
-                    <h3>Roadmap.sh</h3>
-                    <p>Solved all the frontend projects.</p>
-                    <a href="">View my profile</a>
-                </div>
-                <div>
-                    <h3>OpenSource Work</h3>
-                    <p>Contributed to 50 opensource projects. Made my own projects with 200 GitHub Stars.</p>
-                    <a href="">View my GitHub profile</a>
-                </div>
-            </section>
-            <section>
-                <h2>Education</h2>
-                <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</p>
-                <div>
-                    <p>Courses I took:</p>
-                    <ul>
-                        <li>Object Oriented Programming</li>
-                        <li>Datas Structures and Algorithms</li>
-                        <li>Web Engineering</li>
-                        <li>Artificial Intelligence</li>
-                        <li>Human Computer Interaction</li>
-                        <li>Computer Graphics</li>
-                        <li>Database Management Systems</li>
-                        <li>Distributed Database Systems</li>
-                        <li>Discreet Mathematics</li>
-                    </ul>
-                </div>
-            </section>
-            <section>
-                <h2>Reviews from my Teachers</h2>
-                <div>
+            <div class="mid-content">
+                <section class="projects">
+                    <header>
+                        <h2>Projects</h2>
+                    </header>
+                    <a href="">HTML Only Portfolio</a>
+                    <a href="">Calculator</a>
+                    <a href="">Quiz App</a>
+                    <a href="">Countdown Timer</a>
+                    <a href="">Product Upcoming Page</a>
+                </section>
+                <section class="work-exp">
+                    <header>
+                        <h2>Work Experience</h2>
+                    </header>
+                    <div class="exp-link">
+                        <h3>Roadmap.sh</h3>
+                        <p>Solved all the frontend projects.</p>
+                        <a href="">View my profile</a>
+                    </div>
+                    <div class="exp-link">
+                        <h3>OpenSource Work</h3>
+                        <p>Contributed to 50 opensource projects. Made my own projects with 200 GitHub Stars.</p>
+                        <a href="">View my GitHub profile</a>
+                    </div>
+                </section>
+                <section class="edu-exp">
+                    <header>
+                        <h2>Education</h2>
+                    </header>
+                    <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</p>
+                    <div>
+                        <p>Courses I took:</p>
+                        <ul>
+                            <li>Object Oriented Programming</li>
+                            <li>Datas Structures and Algorithms</li>
+                            <li>Web Engineering</li>
+                            <li>Artificial Intelligence</li>
+                            <li>Human Computer Interaction</li>
+                            <li>Computer Graphics</li>
+                            <li>Database Management Systems</li>
+                            <li>Distributed Database Systems</li>
+                            <li>Discreet Mathematics</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <section class="reviews">
+                <header>
+                    <h2>Reviews from my Teachers</h2>
+                </header>
+                <div class="review-block">
                     <p>Jhon Doe was a brilliant student; always stood out with his assignments.</p>
                     <span>
                         <p>Jane Doe</p>
@@ -75,7 +87,7 @@
             </section>
         </main>
         <footer>
-
+            <p>Excercise maked with love for roadmap.sh by Charlie Chan</p>
         </footer>
     </div>
 </body>

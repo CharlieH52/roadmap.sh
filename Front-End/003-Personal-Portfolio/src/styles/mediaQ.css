@@ -1,0 +1,27 @@
+@media (width < 640px){
+    body {
+        min-width: 430px;
+    }
+
+    header h2{
+        display: flex;
+        margin-bottom: 8px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-frame {
+        width: 95%;
+    }
+
+    .main-head {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .mid-content {
+        display: flex;
+        flex-direction: column;
+    }
+}
