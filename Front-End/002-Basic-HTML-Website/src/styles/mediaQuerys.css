@@ -1,0 +1,55 @@
+@media (width <= 512px) {
+    .main-layout {
+        min-width: 100%;
+        margin: 0;
+        padding: 16px 16px;
+    }
+
+    .formulary {
+        & div {
+            flex: 1;
+        }
+    }
+
+}
+
+@media (width <= 768px) {    
+    .main-layout {
+        width: 65%;
+        margin: 0;
+    }
+
+    .menu-header {
+
+        & .menu {
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+    }
+
+    .history {
+        flex-direction: column;
+    }
+
+    .reviews {
+        .reviews-inner-frame {
+            flex-direction: column;
+            .review-box {
+                min-width: auto;
+            }
+        }
+    }
+
+}
+
+@media (width <= 1350px) {
+    .menu-header {
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+
+        .profile {
+            justify-content: center;
+        }
+    }
+}
