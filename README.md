@@ -1,6 +1,7 @@
-# Proyectos de practica de Roadmap.sh
-Este repositorio contendrá todos los ejercicios propuestos en la guia front-end de [Roadmap.sh](https://roadmap.sh/).
+# Excercies projects from [Roadmap.sh](https://roadmap.sh/)
+This repository contains my solutions for the Front-End and Back-End projects.
 
-# Lista de proyectos
-* [Ejercicio 1 - Single Page CV](https://roadmap.sh/projects/single-page-cv)
-* [Ejercicio 2 - Basic HTML Website](https://roadmap.sh/projects/basic-html-website)
+## List my solutions
+* [PROJECT 1 - Single Page CV](https://roadmap.sh/projects/single-page-cv)
+* [PROJECT 2 - Basic HTML Website](https://roadmap.sh/projects/basic-html-website)
+* [PROJECT 3 - Personal Portfolio]() (In progress...)
