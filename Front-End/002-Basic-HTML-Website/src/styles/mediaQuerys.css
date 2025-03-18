@@ -5,12 +5,6 @@
         padding: 16px 16px;
     }
 
-    .formulary {
-        & div {
-            flex: 1;
-        }
-    }
-
 }
 
 @media (width <= 768px) {    
@@ -38,6 +32,16 @@
                 min-width: auto;
             }
         }
+    }
+
+    .formulary {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "name1"
+        "name2"
+        "email"
+        "msg"
+        "btn";
     }
 
 }
