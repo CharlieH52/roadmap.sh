@@ -10,3 +10,4 @@ This repository contains my solutions for the Frontend and Backend projects.
 
 ## Backend
 * [PROJECT 1 - Task Tracker](https://roadmap.sh/projects/task-tracker)
+* [PROJECT 2 - GitHub Activity](https://roadmap.sh/projects/github-user-activity)
