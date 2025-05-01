@@ -1,16 +1,19 @@
 
 class Task:
-    def __init__(self, title, date, status, message):
+    def __init__(self, id, title, status, description, addDate=None, upDate=None):
+        self.id = id
         self.title = title
-        self.date = date 
         self.status = status
-        self.message = message 
+        self.description = description
+        self.addDate = addDate
+        self.upDate = upDate 
 
     def to_dict(self):
-        task_dict = {
+        return {
+            'id': self.id,
             'title': self.title,
-            'date': self.date,
             'status': self.status,
-            'message': self.message
+            'description': self.description,
+            'addDate': self.addDate,
+            'upDate': self.upDate
         }
-        return task_dict
