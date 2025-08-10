@@ -1,38 +1,25 @@
-from responseManagerClass import ResponseManager
-import os
-
-def local_dir():
-    pass
-
-username = 'CharlieH52'
-
-repository_name = 'roadmap.sh' 
-template_name = 'Python'
-
-event_url = f'https://api.github.com/users/{username}/events'
-commit_url = f'https://api.github.com/repos/{username}/{repository_name}/commits'
-gitignore_url = f'https://api.github.com/gitignore/templates/{template_name}'
+from ResponseManClass import ResponseManager
 
 while True:
     print('Please, type your GitHub user name:')
     username = input()
     rm = ResponseManager(username)
 
-    print('Type the number of the ENDPOINT to consult:')
-    print('1. Events\n',
-          '2. Commit\n',
-          '3. gitignore Templates\n'
-          )
+    print(
+        'Type the number of the ENDPOINT to consult:\n',
+        '1. Events\n',
+        '2. Commit\n'
+        )
     option = input()
 
     if option == '1':
-        print('The endpoint is:\n',
-              f'{event_url}'
-              )
-        print('Type the name of new file to export the response:')
-        newFile = input()
-        
-        # Make a human readable json file
-        rm.data_catcher(newFile, event_url)
+        res = rm.get_user_activity()
+        rm.save_response(username, 'Activity', res)
 
+    if option == '2':
+        print('Type the name of your repository:')
+        rm.repository = input()
+        res = rm.get_commit_info()
+        rm.save_response(username, f'Commits-{rm.repository}', res)
+        
 
