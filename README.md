@@ -2,16 +2,16 @@
 Este repositorio contiene todos los ejercicios propuestos por el sitio web Roadmap.sh, en estos se incluyen desde ejercicios enfocados al Frontend hasta Backend y Fullstack.
 
 ## Indice
-- [Frontend](#frontend)
-    1. [PROJECT 1 - Single Page CV](#1-single-page-cv)
-    2. [PROJECT 2 - Basic HTML Website](#2-basic-html-website)
-    3. [PROJECT 3 - Personal Portfolio](#3-personal-portfolio)
-    4. [PROJECT 4 - Changelog Component](#4-changelog-component)
-    5. [PROJECT 5 - Testimonial Cards](#5-testimonial-cards)
+* [Frontend](#frontend)
+    - [PROJECT 1 - Single Page CV](#1-single-page-cv)
+    - [PROJECT 2 - Basic HTML Website](#2-basic-html-website)
+    - [PROJECT 3 - Personal Portfolio](#3-personal-portfolio)
+    - [PROJECT 4 - Changelog Component](#4-changelog-component)
+    - [PROJECT 5 - Testimonial Cards](#5-testimonial-cards)
 
-- [Backend](#backend)
-    1. [PROJECT 1 - Task Tracker](#1-task-tracker)
-    2. [PROJECT 2 - GitHub Activity](#2-github-activity)
+* [Backend](#backend)
+    - [PROJECT 1 - Task Tracker](#1-task-tracker)
+    - [PROJECT 2 - GitHub Activity](#2-github-activity)
 
 ## Frontend
 ### 1. Single Page CV
